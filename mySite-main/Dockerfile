@@ -4,4 +4,4 @@ COPY packages.json /app
 RUN npm install
 COPY ./app
 CMD node server.js
-EXPOSE 7667
+EXPOSE 8888
